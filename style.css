@@ -1,0 +1,797 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    background: black;
+    z-index: 1;
+    top: 0px;
+    height: 80px;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    color: white;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    align-items: center;
+    top: 15px;
+}
+
+#logo1 {
+    color: white;
+    font-size: 10px;
+    left: 10px;
+    position: relative;
+    line-height: 0.9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-itm {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    right: 10px;
+}
+
+#a {
+    position: relative;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    text-shadow: 0 0 10px #ffffff,
+        0 0 30px #ffffff;
+}
+
+#res {
+    position: relative;
+    border: 2px solid white;
+    background-color: black;
+    padding: 4px 29px 7px 29px;
+    font-size: 25px;
+}
+
+#res:hover {
+    box-shadow: 0 0 10px white;
+}
+
+
+
+.s1 {
+    background: url(nudels.jpg);
+    -webkit-backdrop-size: cover;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 440px;
+    margin-top: 10px;
+}
+
+
+#slogun h1#slog {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Monotype Corsiva;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+#slogun h1 span {
+    transition: .5s linear
+}
+
+#slogun h1:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+#slogun h1:hover span {
+    font-size: 50px;
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff,
+        0 0 30px #ff00ff;
+}
+
+#slogun {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 170px;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    top: 190px;
+}
+
+.book {
+    position: relative;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book:hover {
+    background: black;
+    box-shadow: 0 0 20px #ffffff96;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+.menu {
+    position: relative;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu:hover {
+    background: black;
+    box-shadow: 0 0 20px #ffffff96;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+
+
+.s2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.s21 {
+    position: relative;
+    width: 45%;
+}
+
+#location {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    position: relative;
+}
+
+.loc-img {
+    position: relative;
+    width: 45%;
+}
+
+#loc_dis {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-family: MingLiU-ExtB;
+    font-size: 21px;
+    height: 222px;
+    text-align: right;
+}
+
+#loc_img {
+    position: relative;
+    width: 100%;
+    height: 322px;
+    overflow: scroll;
+    box-shadow: 0 0 20px #000000;
+}
+
+#loc_img::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+.s3 {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banquet {
+    position: relative;
+    width: 100%;
+    height: 392px;
+}
+
+#ban_box {
+    position: absolute;
+    width: 80%;
+    height: 234px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+#ban_text {
+    position: relative;
+    font-size: 90px;
+    color: white;
+    font-family: Sitka Display;
+}
+
+
+
+
+
+
+
+.s4 {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.s4h {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.ico {
+    position: relative;
+    left: 20px;
+    height: 180px;
+    width: 20%;
+}
+
+#tri_img1 {
+    position: absolute;
+    left: -17px;
+    transform: rotate(-168deg);
+}
+
+#tri_img2 {
+    position: absolute;
+    left: 34px;
+    transform: rotate(-168deg);
+}
+
+
+
+
+.s41 {
+    left: 60px;
+    position: relative;
+    width: 60%;
+    text-align: center;
+}
+
+#eat_vr {
+    position: relative;
+    font-size: 50px;
+    font-family: Sitka Display;
+    color: #FAD477;
+    bottom: -10px;
+}
+
+#day_sp {
+    position: relative;
+    top: -10px;
+    font-size: 50px;
+    font-family: MV Boli;
+    color: white;
+}
+
+.ico2 {
+    position: relative;
+    transform: rotate(180deg);
+    height: 180px;
+    top: -20px;
+    width: 20%;
+    right: 20px;
+}
+
+
+
+#weekly_home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+    height: 530px;
+    flex-wrap: nowrap;
+}
+
+#daylist_home {
+    position: relative;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#daylist_home ul {
+    display: grid;
+    align-items: center;
+    list-style: none;
+    width: 80%;
+    height: 90%;
+    font-family: Ink Free;
+    text-align: right;
+}
+
+#daylist_home ul li a {
+    font-size: 31px;
+    text-decoration: none;
+}
+
+#daylist_home ul li a:hover {
+    color: #D1B268;
+    text-shadow:
+        0 0 10px #D1B268,
+        0 0 20px #D1B268,
+        0 0 30px #D1B268;
+    font-size: 28px;
+}
+
+#line_home {
+    position: relative;
+    height: 100%;
+    width: 1px;
+    background-color: #D1B268;
+}
+
+#day_home {
+    position: relative;
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+}
+
+#day_home::-webkit-scrollbar {
+    display: none;
+}
+
+#day_home section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#day {
+    position: relative;
+    height: 90%;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+#day_home #day img {
+    width: 250px;
+    height: 150px;
+}
+
+#day_home #day {
+    display: block;
+}
+
+#day span {
+    font-size: 35px;
+    font-family: Ink Free;
+    color: #D1B268;
+}
+
+#day h1 {
+    font-size: 56px;
+    font-family: MingLiU-ExtB;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+#day_p {
+    height: 142px;
+    width: 100%;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+
+#day_p::-webkit-scrollbar {
+    display: none;
+}
+
+#day_p p {
+    font-size: 20px;
+    font-family: MingLiU-ExtB;
+}
+
+
+
+
+
+
+
+
+#cap_box {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 170px;
+    animation-name: lightdark;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 50px;
+}
+
+@keyframes lightdark {
+    0% {
+        background-color: #ffffff;
+        box-shadow: 0 0 3px white;
+    }
+
+    25% {
+        background-color: #ffffffdc;
+        box-shadow: 0 0 30px white;
+    }
+
+    50% {
+        background-color: #ffffffdc;
+        box-shadow: 0 0 5px white;
+    }
+
+    75% {
+        background-color: #ffffffef;
+        box-shadow: 0 0 30px white;
+    }
+
+    100% {
+        background-color: #ffffffcb;
+        box-shadow: 0 0 3px white;
+    }
+}
+
+
+#cap {
+    position: relative;
+    font-size: 51px;
+    font-family: Humanst521 BT;
+}
+
+#cap_book {
+    position: relative;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid #daa321;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+
+#cap_book:hover {
+    box-shadow: 0 0 20px #daa321;
+    background: black;
+}
+
+
+
+
+
+#insta {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 260px;
+}
+
+
+#insta .span {
+    font-family: MingLiU-ExtB;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+}
+
+#insta a:hover {
+    text-shadow: 0 0 20px white,
+        0 0 20px white;
+    font-weight: bold;
+
+}
+
+#insta_scroll {
+    width: 100%;
+    height: 83px;
+    position: relative;
+    display: block;
+    overflow-x: scroll;
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+#insta_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+#insta_scroll img {
+    position: relative;
+    height: 83px;
+    width: 83px;
+}
+
+
+.insta-2 {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.insta-2 .all {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta-2 .all .instaid {
+    font-family: MingLiU-ExtB;
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+
+.insta-2 .all .img {
+    position: relative;
+}
+
+
+
+
+
+
+footer {
+    width: 100%;
+}
+
+
+
+#footer_con {
+    position: relative;
+    color: black;
+    width: 100%;
+}
+
+.f1 {
+    position: relative;
+    width: 100%;
+    height: 275px;
+    background-color: #F1C458;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#subscribe {
+    position: relative;
+    height: 229px;
+    width: 48%;
+}
+
+#subscribe .sub1 {
+    position: relative;
+    font-family: Segoe Print;
+    font-weight: bold;
+    font-size: 30px;
+    word-wrap: none;
+}
+
+#subscribe label {
+    font-family: Segoe UI;
+    font-size: 30px;
+}
+
+#subscribe .se {
+    width: 70%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.695);
+    border: 1px solid black;
+    color: black;
+}
+
+#subscribe .ss {
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.744);
+    color: white;
+    font-weight: light;
+    font-size: 30px;
+    font-family: SimSun;
+    width: 190px;
+    padding: 5px 0px;
+}
+
+
+#review {
+    position: relative;
+    height: 229px;
+    width: 48%;
+    text-align: right;
+
+}
+
+#review .rev1 {
+    font-family: Segoe Print;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#rv {
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.rating {
+    width: 170px;
+    position: relative;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background: #ffffff81;
+    display: block;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating:not(:checked)>input {
+    display: none;
+}
+
+#rv #like input {
+    position: static;
+}
+
+#rv #like label {
+    position: static;
+}
+
+#like:not(:checked)>label {
+    cursor: pointer;
+    float: right;
+    width: 30px;
+    height: 30px;
+    display: block;
+
+    color: rgba(233, 54, 40, .4);
+    line-height: 33px;
+    text-align: center;
+}
+
+#like:not(:checked)>label:hover,
+#like:not(:checked)>label:hover~label {
+    color: rgb(233, 53, 40);
+}
+
+#like>input:checked+label:hover,
+#like>input:checked+label:hover~label,
+#like>input:checked~label:hover,
+#like>input:checked~label:hover~label,
+#like>label:hover~input:checked~label {
+    color: rgb(150, 10, 0);
+}
+
+#like>input:checked~label {
+    color: rgb(255, 0, 0);
+}
+
+#review .rete {
+    width: 70%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.695);
+    border: 1px solid black;
+    color: black;
+}
+
+#review .resu {
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.744);
+    color: white;
+    font-weight: light;
+    font-size: 30px;
+    font-family: SimSun;
+    width: 190px;
+    padding: 5px 0px;
+}
+
+
+
+
+
+
+.f2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sch_dis {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+}
+
+#locdis {
+    text-align: right;
+    width: 32%;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#locdis ul i {
+    position: relative;
+    margin-left: 10px;
+}
